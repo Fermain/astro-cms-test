@@ -11,7 +11,9 @@
 	},
 	"bugs": "https://github.com/zankhq/astro-starter/issues",
 	"homepage": "https://github.com/zankhq/astro-starter",
-	"files": ["*"],
+	"files": [
+		"*"
+	],
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
@@ -39,9 +41,9 @@
 		"astro-icon": "^1.1.0",
 		"astro-seo": "^0.8.4",
 		"prettier": "^3.3.2",
-		"sharp": "0.33.4",
 		"prettier-plugin-astro": "^0.14.0",
-		"prettier-plugin-tailwindcss": "^0.6.5"
+		"prettier-plugin-tailwindcss": "^0.6.5",
+		"sharp": "^0.33.4"
 	},
 	"prettier": {
 		"tabWidth": 4,
@@ -49,7 +51,10 @@
 		"bracketSameLine": true,
 		"printWidth": 150,
 		"htmlWhitespaceSensitivity": "ignore",
-		"plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"]
+		"plugins": [
+			"prettier-plugin-astro",
+			"prettier-plugin-tailwindcss"
+		]
 	},
 	"overrides": {
 		"sharp": "0.33.4",

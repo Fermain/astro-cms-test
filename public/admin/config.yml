@@ -5,9 +5,9 @@ logo_url: /logo.svg
 backend:
     name: github
     branch: main
-    repo: zankhq/astro-starter
-    site_domain: astrostarter.majestico.it
-    base_url: https://astrostarter.majestico.it
+    repo: Fermain/astro-cms-test
+    site_domain: cms.ferma.in
+    base_url: https://cms.ferma.in
     auth_endpoint: oauth
     automatic_deployments: true
 
@@ -18,7 +18,6 @@ i18n:
     structure: "multiple_folders"
     locales:
         - "en"
-        - "it"
     default_locale: "en"
 
 collections:

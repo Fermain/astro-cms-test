@@ -10,7 +10,7 @@ backend:
     repo: Fermain/cms
     site_domain: cms.ferma.in
     base_url: https://cms.ferma.in
-    auth_endpoint: oauth
+    # auth_endpoint: oauth
     automatic_deployments: true
 
 media_folder: "src/assets/images"

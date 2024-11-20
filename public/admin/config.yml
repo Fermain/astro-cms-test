@@ -10,6 +10,7 @@ backend:
     repo: Fermain/cms
     # use_graphql: true
     # auth_endpoint: oauth
+    auth_endpoint: oauth/authorize
     # automatic_deployments: true
 
 media_folder: "src/assets/images"

@@ -5,7 +5,7 @@ logo_url: /logo.svg
 backend:
     name: github
     branch: main
-    repo: Fermain/astro-cms-test
+    repo: Fermain/cms
     site_domain: cms.ferma.in
     base_url: https://cms.ferma.in
     auth_endpoint: oauth
@@ -34,19 +34,6 @@ collections:
             widget: "string"
             label: "Post Title"
             i18n: true
-          - label: "Description"
-            name: "description"
-            widget: "string"
-            i18n: true
-          - label: "Publish Date"
-            name: "pubDate"
-            widget: "datetime"
-            format: "YYYY-MM-DD HH:mm"
-            i18n: "duplicate"
-          - label: "Image"
-            name: "heroImage"
-            widget: "image"
-            i18n: "duplicate"
           - name: "body"
             widget: "markdown"
             label: "Post Body"

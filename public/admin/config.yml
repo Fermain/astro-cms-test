@@ -8,7 +8,7 @@ backend:
     application_id: 40d0d4cf9ce4ad0b5841b63dad57deb4bb7a2958061cb6377e756e3c555b0429
     auth_type: pkce
     repo: Fermain/cms
-    use_graphql: true
+    # use_graphql: true
     # auth_endpoint: oauth
     # automatic_deployments: true
 

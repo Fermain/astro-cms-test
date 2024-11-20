@@ -1,10 +1,12 @@
-local_backend: true
+local_backend: false
 
 logo_url: /logo.svg
 
 backend:
-    name: github
+    name: gitlab
     branch: main
+    application_id: 40d0d4cf9ce4ad0b5841b63dad57deb4bb7a2958061cb6377e756e3c555b0429
+    auth_type: pkce
     repo: Fermain/cms
     site_domain: cms.ferma.in
     base_url: https://cms.ferma.in
